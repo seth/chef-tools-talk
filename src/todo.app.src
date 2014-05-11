@@ -1,0 +1,14 @@
+%% -*- mode: erlang -*-
+{application, todo,
+ [
+  {description, "the todo project"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { todo_app, []}},
+  {env, []}
+ ]}.
+%% vim: set filetype=erlang tabstop=2
