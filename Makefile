@@ -4,7 +4,7 @@
 #
 # Use this to override concrete's default dialyzer options of
 # -Wunderspecs
-# DIALYZER_OPTS = ...
+DIALYZER_OPTS =
 
 # List dependencies that you do NOT want to be included in the
 # dialyzer PLT for the project here.  Typically, you would list a
