@@ -5,3 +5,6 @@ rel/todo
 .concrete/DEV_MODE
 deps.plt
 .eunit
+_rel/
+/relx
+

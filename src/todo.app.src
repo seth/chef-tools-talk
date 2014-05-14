@@ -6,7 +6,10 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  ej,
+                  epgsql,
+                  sqerl
                  ]},
   {mod, { todo_app, []}},
   {env, []}

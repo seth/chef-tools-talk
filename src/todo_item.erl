@@ -33,4 +33,8 @@
      priority].
 
 '#statements'() ->
-    [default].
+    [default,
+     {fetch_by_title, sqerl_rec:gen_fetch(todo_item, title)},
+     {fetch_page, sqerl_rec:gen_fetch_page(todo_item, title)},
+     {fetch_all, sqerl_rec:gen_fetch_all(todo_item, title)}
+    ].
