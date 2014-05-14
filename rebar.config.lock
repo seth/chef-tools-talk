@@ -1,0 +1,35 @@
+%% THIS FILE IS GENERATED. DO NOT EDIT IT MANUALLY %%
+
+{deps,[{edown,".*",
+              {git,"git://github.com/seth/edown.git",
+                   "30a9f7867d615af45783235faa52742d11a9348e"}},
+       {rebar_lock_deps_plugin,".*",
+                               {git,"git://github.com/seth/rebar_lock_deps_plugin.git",
+                                    "9711549b8a84b065eb2edc22f8eb6ff85e3c94e8"}},
+       {parse_trans,".*",
+                    {git,"https://github.com/uwiger/parse_trans.git",
+                         "2adfbfcc17f9cd9da19134c0ecfba30052a26e25"}},
+       {epgsql,".*",
+               {git,"git://github.com/opscode/epgsql.git",
+                    "6ceff57e8b32b6554728a082db52584f1f65bd7e"}},
+       {pooler,".*",
+               {git,"git://github.com/seth/pooler.git",
+                    "37da392e5de1d8b9bfa277e2e13238b6610a1cd7"}},
+       {envy,".*",
+             {git,"git://github.com/manderson26/envy.git",
+                  "d62cb227b9000ee866c8bcc724ddf68d87621dea"}},
+       {sqerl,".*",
+              {git,"git://github.com/opscode/sqerl.git",
+                   "c9509d2aecc755f10bd8d4b3e1cda247aa810e50"}},
+       {ej,".*",
+           {git,"git://github.com/seth/ej.git",
+                "0332523799fdbab4b7c8e87074dcf57bb15005a6"}},
+       {goldrush,".*",
+                 {git,"git://github.com/DeadZen/goldrush.git",
+                      "71e63212f12c25827e0c1b4198d37d5d018a7fec"}},
+       {lager,".*",
+              {git,"https://github.com/basho/lager.git",
+                   "4d8291edb72a25ac0efde907e2ecaa115108ff90"}}]}.
+{use_edown,true}.
+{cover_enabled,true}.
+
