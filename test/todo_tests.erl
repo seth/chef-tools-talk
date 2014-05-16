@@ -18,11 +18,12 @@ todo_test_() ->
                [] = sqerl_rec:fetch_all(todo_item),
 
                %% create a todo_item and insert it
-               Item0 = todo_item:'#fromlist-todo_item'([{title, <<"write tests">>},
-                                                        {priority, <<"hot">>},
-                                                        {description, <<"lorup ipsum">>},
-                                                        {created_by, <<"me">>}
-                                                       ]),
+               Item0 = todo_item:'#fromlist-'(todo_item,
+                                              [{title, <<"write tests">>},
+                                               {priority, <<"hot">>},
+                                               {description, <<"lorup ipsum">>},
+                                               {created_by, <<"me">>}
+                                              ]),
                [Item1] = sqerl_rec:insert(Item0),
 
                %% we get the inserted object back and so have access
